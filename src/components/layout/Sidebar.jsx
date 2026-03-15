@@ -14,7 +14,7 @@ const NavLink = ({ icon, label, path, onClick }) => {
 };
 
 const Sidebar = ({ links, role }) => {
-  const { user, logout } = useAuth();
+  const { user, logout } = useAuth(); 
   const navigate = useNavigate();
 
   const roleLabels = {

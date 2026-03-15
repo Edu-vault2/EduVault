@@ -22,7 +22,7 @@ export const StudentLayout = () => (
 // --- Student Dashboard ---
 export const StudentDashboard = () => (
   <div>
-    <Topbar title="Student Dashboard Overview" subtitle="Welcome back, Alex. Here's your academic summary for this semester."
+    <Topbar title="Student Dashboard Overview" subtitle="Welcome back, Bhavesh Jangid. Here's your academic summary for this semester."
       actions={
         <div className="flex gap-2">
           <button className="btn-outline text-xs">↓ Report Card</button>
@@ -351,7 +351,7 @@ export const StudentProfile = () => (
             <div className="absolute bottom-0 right-0 w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-xs cursor-pointer">✏️</div>
           </div>
           <div>
-            <h2 className="font-display text-2xl font-bold text-primary">Alex Johnson</h2>
+            <h2 className="font-display text-2xl font-bold text-primary">Bhavesh Jangid</h2>
             <div className="flex gap-3 mt-1 text-xs text-gray-500">
               <span>🎓 STU-2023-0891</span>
               <span>📚 Grade 10-B</span>
@@ -361,16 +361,16 @@ export const StudentProfile = () => (
         </div>
         <h3 className="font-display font-semibold text-primary mb-4 flex items-center gap-2">👤 Personal Information</h3>
         <div className="grid grid-cols-2 gap-4">
-          {[['Full Name','Alex Johnson'],['Date of Birth','May 15, 2008'],['Gender','Male'],['Blood Group','O Positive'],['Enrollment Date','August 20, 2021'],['Email Address','alex.j@school.edu']].map(([l,v])=>(
+          {[['Full Name','Bhavesh Jangid '],['Date of Birth','September 09, 2004'],['Gender','Male'],['Blood Group','B Positive'],['Enrollment Date','August 20, 2021'],['Email Address','bhaveshjangid309@gmail.com']].map(([l,v])=>(
             <div key={l}><div className="text-xs font-semibold text-gray-400 uppercase mb-0.5">{l}</div><div className="text-sm font-medium text-primary">{v}</div></div>
           ))}
         </div>
         <h3 className="font-display font-semibold text-primary mt-6 mb-4 flex items-center gap-2">👪 Guardian Information</h3>
         <div className="grid grid-cols-2 gap-4">
-          {[['Primary Guardian','Robert Johnson'],['Relationship','Father'],['Phone Number','+1 (555) 012-3456'],['Occupation','Software Engineer']].map(([l,v])=>(
+          {[['Primary Guardian','Lokesh Jnagid'],['Relationship','Father'],['Phone Number','+91 9462056233'],['Occupation','Businessman']].map(([l,v])=>(
             <div key={l}><div className="text-xs font-semibold text-gray-400 uppercase mb-0.5">{l}</div><div className="text-sm font-medium text-primary">{v}</div></div>
           ))}
-          <div className="col-span-2"><div className="text-xs font-semibold text-gray-400 uppercase mb-0.5">Residential Address</div><div className="text-sm text-primary">123 Academic Way, Education District, San Francisco, CA 94105</div></div>
+          <div className="col-span-2"><div className="text-xs font-semibold text-gray-400 uppercase mb-0.5">Residential Address</div><div className="text-sm text-primary">Kalyan Nagar Road no 3 vishkerma industrial area ,Murlipura,jaipur Rajasthan 302010</div></div>
         </div>
       </div>
       <div className="space-y-4">
