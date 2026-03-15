@@ -13,7 +13,7 @@ A comprehensive, multi-tenant SaaS school management platform built with React +
 
 ## 📂 Project Structure
 ```
-eduflow/
+EduVault/
 ├── src/
 │   ├── components/       # Shared UI (Sidebar, Topbar, Logo)
 │   ├── contexts/         # AuthContext
