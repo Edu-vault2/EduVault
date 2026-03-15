@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EduFlow - School Management System
 
 A comprehensive, multi-tenant SaaS school management platform built with React + Vite, Tailwind CSS.
@@ -105,3 +106,7 @@ API runs on `http://localhost:5000`
 
 ---
 Built with ❤️ using React + Vite + Tailwind CSS
+=======
+# EduVault
+The big plat form for the small school, Data security for Smart School
+>>>>>>> 3a44d6d3bced0006f4e2cf6e632d22a8c0d0d31e
